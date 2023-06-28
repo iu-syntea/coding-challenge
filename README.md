@@ -24,13 +24,17 @@ You will also create a Docker Compose file to run the entire system.
 
 ## Evaluation Criteria
 
-Your solution will be evaluated based on the following criteria:
+To ensure that you feel at ease during the coding challenge, and to achieve the best outcome, please consider the following criteria:
 
-1. Correctness and completeness of the implementation
-2. Code quality, readability, and organization
-3. Proper use of FastAPI features and best practices
-4. Efficiency and performance of the answer matching algorithm
-5. Scalability and maintainability of the overall solution
+1. Correctness and Completeness: We will assess the accuracy and thoroughness of your implementation. It's important to provide a solution that produces the expected results and encompasses all the required functionalities.
+
+2. Code Quality, Readability, and Organization: We value well-structured and readable code. Concentrate on crafting clean, maintainable code that aligns with best practices. Enhance readability by appropriately commenting and neatly organizing your code.
+
+3. Utilization of FastAPI Features and Best Practices: We urge you to make effective use of FastAPI's features and follow its recommended practices. This shows your familiarity with the framework and your ability to exploit its capabilities to build sturdy and efficient applications.
+
+4. Efficiency and Performance: We will evaluate the efficacy and speed of your answer matching algorithm. Aim to design an algorithm that executes swiftly and scales well, even with extensive datasets.
+
+5. Scalability and Maintainability: We are interested in solutions that can be effortlessly scaled and maintained. Consider the long-term practicality of your solution and its adaptability to future changes or increased usage.
 
 ## Submission
 
