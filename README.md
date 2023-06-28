@@ -1,5 +1,3 @@
-# Code Challenge: Senior Backend Developer
-
 ## Overview
 
 In this code challenge, you will be implementing three simple microservices for a conversational AI system using Python 3.9+ and FastAPI. The purpose of these microservices is to:
