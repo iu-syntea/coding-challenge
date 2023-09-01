@@ -1,0 +1,17 @@
+# FastAPI framework for building the APIs
+fastapi
+
+# ASGI server to run FastAPI applications
+uvicorn
+
+# For machine learning-based text matching algorithms like cosine similarity
+scikit-learn
+
+# Required for numerical operations, often used with scikit-learn
+numpy
+
+# For SQL-based database operations, (chose for scalability)
+sqlalchemy
+
+# For making HTTP calls between microservices
+requests
