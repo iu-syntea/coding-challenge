@@ -1,0 +1,5 @@
+import os
+
+SERVICE_MATCHING_URL = os.environ['SERVICE_MATCHING_URL']
+SERVICE_HISTORY_URL = os.environ['SERVICE_HISTORY_URL']
+LOG_LEVEL = os.environ.get('LOG_LEVEL', 'INFO')

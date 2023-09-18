@@ -1,0 +1,33 @@
+version: '3'
+services:
+  api_service:
+    build:
+      context: ./apps/api_service
+    ports:
+      - "8000:8000"
+    depends_on:
+      - matching_service
+      - history_service
+    environment:
+      - SERVICE_MATCHING_URL=http://matching_service:8000/questions/
+      - SERVICE_HISTORY_URL=http://history_service:8000/logs/
+      - LOG_LEVEL=INFO
+
+  matching_service:
+    build:
+      context: ./apps/matching_service
+    ports:
+      - "8001:8000"
+    environment:
+      - MATCHING_MIN_SCORE=0.5
+      - FIXTURES_DIR=/opt/fixtures/
+      - LOG_LEVEL=INFO
+
+  history_service:
+    build:
+      context: ./apps/history_service
+    ports:
+      - "8002:8000"
+    environment:
+      - LOG_FILE=/tmp/logfile
+      - LOG_LEVEL=INFO
